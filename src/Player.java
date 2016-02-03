@@ -36,7 +36,7 @@ public class Player {
             System.out.println("Entering tunnel...");
         }
         else {
-            throw new ExcepRefactoretion ("Invalid location!");
+            throw new Exception ("Invalid location!");
         }
     }
 }
