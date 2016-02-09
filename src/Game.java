@@ -19,6 +19,10 @@ public class Game {
         player.findItem("belt");
 
 
+        Enemy ogre = new Enemy("Ogre", 10, 10);
+        player.battle(ogre); //call battle method, pass ogre into it
+
+
 
     }
 
